@@ -3,7 +3,7 @@ header, nav {
         color: white;
         text-align: center;
         padding: 1em;
-        padding-bottom: -1em;
+
 }
 div, footer {
         text-align: center;
@@ -24,8 +24,9 @@ li {
     display: inline-block;
     background: hsl(208, 56%, 43%);
     -webkit-transition: -webkit-transform 2s; /* Safari */
-    transition: transform 1s;
+    transition: transform 1.5s;
     padding-right: 1em;
+    padding-left: 1em;
 }
 
 li:hover {
