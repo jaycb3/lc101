@@ -1,0 +1,36 @@
+header, nav {
+        background-color: hsl(208, 56%, 43%);
+        color: white;
+        text-align: center;
+        padding: 1em;
+        padding-bottom: -1em;
+}
+div, footer {
+        text-align: center;
+}
+nav {
+        display: inline;
+}
+h4 {
+        padding-top: -10px;
+}
+ul {
+        list-style: none;
+        float: right;
+}
+li {
+
+    padding: 1em;
+    display: inline;
+    background: hsl(208, 56%, 43%);
+    -webkit-transition: -webkit-transform 2s; /* Safari */
+    transition: transform 1s;
+}
+
+li:hover {
+
+
+    background: #999;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
